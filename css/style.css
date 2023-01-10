@@ -205,3 +205,33 @@ body {
         line-height: 1.4rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .shop_top {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .shop_header {
+        margin-top: 25%;
+    }
+
+    .balance {
+        width: 90%;
+        height: 60%;
+        margin-top: 2rem;
+    }
+
+    .item {
+        height: 60px;
+    }
+
+    .item > img {
+        width: 80px;
+        height: auto;
+    }
+}
