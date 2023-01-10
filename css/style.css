@@ -183,3 +183,25 @@ body {
     width: 120px;
     height: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .shop_header {
+        margin-top: 50%;
+    }
+
+    .shop_header h1 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    .shop_header h2 {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    .shop_header p {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.4rem;
+    }
+}

@@ -1,4 +1,3 @@
-let earnings = 0;
 const fishes = [
     {
         name: "clown-loach",
@@ -21,6 +20,7 @@ const fishes = [
         priceByKg: 14,
     },
 ];
+let earnings = 0;
 
 function renderItems() {
     const itemsContainer = document.querySelector("#items");
@@ -38,6 +38,7 @@ function renderItems() {
 function renderEarnings() {
     const showEarningElement = document.querySelector("#earning-value");
     showEarningElement.innerText = `+${earnings}`;
+    console.log(`Earnings: ${earnings}`);
 }
 
 function allowDrop(ev) {
